@@ -199,3 +199,161 @@ body{
         transform: translateY(0);
     }
 }
+
+/* Tipografía y reset */
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #fffdf7;
+  color: #2a1a00;
+}
+
+/* Encabezado */
+.header {
+  background-color: #2a1a00;
+  color: #fdfcf6;
+}
+
+.top-bar {
+  text-align: center;
+  font-size: 12px;
+  padding: 8px 0;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 60px;
+}
+
+.logo {
+  font-family: 'Brush Script MT', cursive;
+  font-size: 36px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: #fdfcf6;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+nav a.active {
+  text-decoration: underline;
+}
+
+.icons span {
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+/* Contenido principal */
+.main {
+  padding: 50px 80px;
+  background-color: #fdfcf6;
+}
+
+.main h1 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.filters {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.filter-group, .order-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+select {
+  border: none;
+  background-color: transparent;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* Productos */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.product-card {
+  text-align: left;
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.product-card h3 {
+  margin: 10px 0 5px;
+  font-size: 15px;
+}
+
+.product-card .price {
+  color: #2a1a00;
+  font-weight: bold;
+}
+
+/* Footer */
+.footer {
+  background-color: #2a1a00;
+  color: #fdfcf6;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.footer p {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.footer form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.footer input {
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  width: 250px;
+}
+
+.footer button {
+  background-color: transparent;
+  color: #fdfcf6;
+  font-size: 18px;
+  border: 1px solid #fdfcf6;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 0 12px;
+}
+
+.socials a {
+  margin: 0 10px;
+  color: #fdfcf6;
+  text-decoration: none;
+  font-size: 18px;
+}
+
