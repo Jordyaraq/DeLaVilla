@@ -187,3 +187,15 @@ body{
   .footer-grid{flex-direction:column;gap:12px}
   .newsletter input{width:100%}
 }
+
+/* ANIMACIONES */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
